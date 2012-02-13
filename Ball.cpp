@@ -96,16 +96,18 @@ void Ball::Tick(InputState *InputStatePtr, PlayField *PlayfieldPtr){
 	case HIT:
 		ExpandRate = 0.1 / Dtime;
 		m_iRadius < BIG_RADIUS ? m_iRadius += NORMAL_RADIUS/ExpandRate : m_iState = BIG;
-		//matScale.SetAsScale(RadiousScale);
-
-		m_CollisionMeshPtr->CreateEllipse(0,0,m_iRadius,m_iRadius);
+		matScale.SetAsScale(RadiousScale);
+		
+		// Old code with creating new colMesh
+		//m_CollisionMeshPtr->CreateEllipse(0,0,m_iRadius,m_iRadius);
 		break;
 	case TIMEUP:
 		ExpandRate = 0.1 / Dtime;
 		m_iRadius >= 0 ? m_iRadius -= NORMAL_RADIUS/ExpandRate : m_iState = GONE;
-		// matScale.SetAsScale(m_iRadius/50);
+		matScale.SetAsScale(m_iRadius/50);
 
-		m_CollisionMeshPtr->CreateEllipse(0,0,m_iRadius,m_iRadius);
+		// Old code with creating new colMesh
+		//m_CollisionMeshPtr->CreateEllipse(0,0,m_iRadius,m_iRadius);
 		break;
 	case BIG:
 		m_dTimeBig += Dtime;
