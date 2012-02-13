@@ -75,6 +75,7 @@
   <ItemGroup>
     <None Include="Changelog.txt" />
     <None Include="Direct2DEngine.ico" />
+    <None Include="README" />
     <None Include="small.ico" />
   </ItemGroup>
   <ItemGroup>

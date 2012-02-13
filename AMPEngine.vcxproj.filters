@@ -258,6 +258,7 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="Changelog.txt" />
+    <None Include="README" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="AMPEngine.rc">
