@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{d3a87563-eeef-4c6d-acca-b9fe81ee2494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{b4236f21-fc4c-4cd5-88dc-da5a4a773079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Input">
+      <UniqueIdentifier>{1fe00683-4ab8-4170-913e-511ff3c3682e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Resources">
+      <UniqueIdentifier>{4987b5f5-7cba-44c4-aab6-7ad812e5f8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core">
+      <UniqueIdentifier>{3bd9edee-499f-452d-96df-8b455a74ff50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Math">
+      <UniqueIdentifier>{b7cc48ce-8b6b-473f-83d3-9f530ae07d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\GUI">
+      <UniqueIdentifier>{a90aaebc-b0e9-4582-be50-106187234a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\TinyXML">
+      <UniqueIdentifier>{16638c8e-0409-4cfc-a808-d80223303392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Engine Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputState.cpp">
+      <Filter>Engine Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputStateManager.cpp">
+      <Filter>Engine Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFormat.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFormatLoader.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEngine.cpp">
+      <Filter>Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2D.cpp">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect2D.cpp">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Point2D.cpp">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Painter.cpp">
+      <Filter>Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Caller.cpp">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinMain.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfigurator.cpp">
+      <Filter>Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMesh.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="HitOutline.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scalar.cpp">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgLoader.cpp">
+      <Filter>Engine Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Engine Files\Core\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Engine Files\Core\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Engine Files\Core\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Angle.cpp">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chainreaction.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayField.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseActions.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputStateManager.h">
+      <Filter>Engine Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Engine Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>Engine Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFormat.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFormatLoader.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEngine.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinMain.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect2D.h">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Painter.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Caller.h">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfigurator.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMesh.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="HitOutline.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Engine Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgLoader.h">
+      <Filter>Engine Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Scalar.h">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Engine Files\Core\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Angle.h">
+      <Filter>Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chainreaction.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayField.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseActions.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Direct2DEngine.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Changelog.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AMPEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
